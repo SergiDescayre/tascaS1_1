@@ -1,0 +1,119 @@
+.main{
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.boxOne {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.boxOne .fileOne {
+    height: 50px;
+    width: 100%;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxOne .fileOne div {
+    margin: 0 20px;
+    width: 20%;
+    height: 20px;
+    background-color: red;
+}
+
+.boxOne .fileOne div:nth-child(2) {
+    width: 60%;
+}
+
+
+.boxOne .fileTwo {
+    height: 40px;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxOne .fileTwo div {
+    margin: 0 20px;
+    width: 100%;
+    height: 20px;
+    background-color: yellow;
+}
+
+.boxTwo {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    gap: 20px;
+}
+
+.boxTwo .columnOne {
+    width: 60%;
+}
+
+.boxTwo .columnTwo {
+    width: 40%;
+}
+
+.boxTwo .columnOne div {
+    background-color: rgb(26, 26, 81);
+    width: 100%;
+}
+
+.columnOne .fileOne,
+.columnOne .fileTwo,
+.columnOne .fileThree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.columnOne .fileOne div,
+.columnOne .fileTwo div,
+.columnOne .fileThree div {
+    background-color: aqua;
+    width: 50%;
+    height: 20px;
+    margin: 15px;
+}
+
+.boxTwo .fileThree div {
+    width: 100%;
+}
+
+.boxTwo .columnTwo {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxTwo .columnTwo div {
+    background-color: yellow;
+    height: 20px;
+    margin: 20px 10px 0 10px;
+}
+
+.boxThree {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: black;
+}
+
+.boxThree div {
+    background-color: orange;
+    height: 20px;
+}
+
+
