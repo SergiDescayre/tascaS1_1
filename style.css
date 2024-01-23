@@ -31,12 +31,26 @@ body{
     width: 20%;
     height: 20px;
     background-color: red;
+
 }
 
 .boxOne .fileOne div:nth-child(2) {
     width: 60%;
 }
 
+.boxOne .fileOne div:nth-child(1):hover{
+    cursor:pointer;
+    animation-name: myAnimation;
+    animation-duration: .5s;
+    position:relative;
+}
+
+@keyframes myAnimation {
+    100%{
+        background-color: blueviolet;
+        height: 45px;
+    }
+}
 
 .boxOne .fileTwo {
     height: 40px;
