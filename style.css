@@ -132,6 +132,33 @@
     }
 }
 
+@media (max-width : 576px) {
+    .boxOne .fileOne{
+        height:auto;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 0;
+    }
+
+    .boxOne .fileOne div,
+    .boxOne .fileOne div:nth-child(2){
+        width: 90%;
+    }
+
+    .columnOne .fileOne,
+    .columnOne .fileTwo,
+    .columnOne .fileThree {
+        flex-direction: column;
+
+    }
+    .columnOne .fileOne div,
+    .columnOne .fileTwo div,
+    .columnOne .fileThree div {
+        width: 95%;
+        
+    }
+}
+
 
 
 
